@@ -1,0 +1,49 @@
+@import "template/head.less";
+@import "template/footer.less";
+@import "template/positionList.less";
+
+.fs(@px){
+  font-size: unit(@px/37.5,rem);
+}
+
+.w(@px){
+  width: unit(@px/37.5,rem);
+}
+
+.h(@px){
+  height: unit(@px/37.5,rem);
+}
+
+.lh(@px){
+  line-height:unit(@px/37.5,rem);
+}
+
+.mt(@px){
+  margin-top:unit(@px/37.5,rem);
+}
+
+.getRem(@px){
+  @rem : unit(@px/37.5,rem);
+}
+
+
+
+html,body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+li{
+  list-style-type: none;
+}
+
+body{
+  .fs(16);
+}

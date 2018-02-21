@@ -1,0 +1,19 @@
+<div class="positionList">
+    <ul>
+        <li ng-repeat="item in data">
+            <div class="list-img">
+                <img ng-src="{{item.img}}">
+            </div>
+            <div class="list-content">
+                <div class="list-tittle" ng-bind="item.title">
+                </div>
+                <div class="list-desc" ng-bind="item.company + '[' + item.city + ']' + item.industry" >
+                </div>
+            </div>
+        </li>
+
+    </ul>
+    <!--{{abc}}-->
+    <!--<div ng-bind="abc"></div>-->
+    <!--<input type="text" ng-model="abc">-->
+</div>
